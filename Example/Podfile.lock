@@ -6,11 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   MagicLayout:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   MagicLayout: dba08af0796cef1050b337e4ca5626e052caaf21
 
 PODFILE CHECKSUM: e244191b718a5a8c510c4cda32221740bdd8317d
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
