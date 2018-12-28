@@ -9,7 +9,7 @@
 import UIKit
 
 
-extension UIView {
+public extension UIView {
     
     public func pin(to otherView: UIView? = nil, withMargin margin: CGFloat = 0 ){
         pinLeft(to: otherView, withMargin: margin)
@@ -48,7 +48,7 @@ extension UIView {
         addMagicConstraint(MLMagicConstraint(item: self, attribute: .top, relatedBy: .equal, toItem: superView, attribute: .top, multiplier: 1, constant: margin))
     }
 
-    func pinBottom(to otherView: UIView? = nil, withMargin margin: CGFloat = 0 ) {
+    public func pinBottom(to otherView: UIView? = nil, withMargin margin: CGFloat = 0 ) {
         var superView: UIView!
         if otherView == nil {
             superView = self.superview
@@ -59,16 +59,16 @@ extension UIView {
     }
 }
 
-extension UIView {
+public extension UIView {
 
-    func pinLastSubviewToBottom(withMargin margin: CGFloat = 0 ) {
+    public func pinLastSubviewToBottom(withMargin margin: CGFloat = 0 ) {
         guard let lastView = self.subviews.last else {
             return
         }
         lastView.pinBottom(to: self, withMargin: margin)
     }
     
-    func pinFirstSubviewToTop(view: UIView, withMargin margin: CGFloat = 0 ) {
+    public func pinFirstSubviewToTop(view: UIView, withMargin margin: CGFloat = 0 ) {
         guard let firstView = self.subviews.first else {
             return
         }

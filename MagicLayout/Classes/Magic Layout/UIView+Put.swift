@@ -8,9 +8,9 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     
-    func put(belowOf view2: UIView, withMargin margin: CGFloat = 0) {
+    public func put(belowOf view2: UIView, withMargin margin: CGFloat = 0) {
         addMagicConstraint(MLMagicConstraint(
             item: self,
             attribute: .top,
@@ -22,7 +22,7 @@ extension UIView {
         ))
     }
     
-    func put(onBottomOfLastViewOf view2: UIView, withMargin margin: CGFloat = 0) {
+    public func put(onBottomOfLastViewOf view2: UIView, withMargin margin: CGFloat = 0) {
         if !view2.subviews.contains(self) {
             return
         }
@@ -31,7 +31,7 @@ extension UIView {
         }
     }
     
-    func put( aboveOf view2: UIView, withMargin margin: CGFloat = 0) {
+    public func put( aboveOf view2: UIView, withMargin margin: CGFloat = 0) {
         addMagicConstraint(MLMagicConstraint(
             item: self,
             attribute: .bottom,
@@ -43,7 +43,7 @@ extension UIView {
         ))
     }
     
-    func put(leftOf view2: UIView, withMargin margin: CGFloat = 0, relation: NSLayoutConstraint.Relation = NSLayoutConstraint.Relation.equal) {
+    public func put(leftOf view2: UIView, withMargin margin: CGFloat = 0, relation: NSLayoutConstraint.Relation = NSLayoutConstraint.Relation.equal) {
         addMagicConstraint(MLMagicConstraint(
             item: self,
             attribute: .right,
@@ -55,7 +55,7 @@ extension UIView {
         ))
     }
     
-    func put(rightOf view2: UIView, withMargin margin: CGFloat = 0, relation: NSLayoutConstraint.Relation = NSLayoutConstraint.Relation.equal) {
+    public func put(rightOf view2: UIView, withMargin margin: CGFloat = 0, relation: NSLayoutConstraint.Relation = NSLayoutConstraint.Relation.equal) {
         addMagicConstraint(MLMagicConstraint(
             item: self,
             attribute: .left,

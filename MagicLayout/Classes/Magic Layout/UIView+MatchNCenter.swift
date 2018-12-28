@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
 
     public func centerHorizontally(to container: UIView? = nil) {
         var superView: UIView?
@@ -43,7 +43,7 @@ extension UIView {
         centerVertically(to: container)
     }
     
-    func matchWidth(toView otherView: UIView? = nil, withPercentage percent: CGFloat = 100) {
+    public func matchWidth(toView otherView: UIView? = nil, withPercentage percent: CGFloat = 100) {
         var superView: UIView!
         if otherView == nil {
             superView = self.superview
@@ -58,7 +58,7 @@ extension UIView {
         
     }
     
-    func matchHeight(toView otherView: UIView? = nil, withPercentage percent: CGFloat = 100) {
+    public func matchHeight(toView otherView: UIView? = nil, withPercentage percent: CGFloat = 100) {
         var superView: UIView!
         if otherView == nil {
             superView = self.superview
@@ -72,7 +72,7 @@ extension UIView {
         }
     }
     
-    func matchSize(toView view:UIView? = nil, withPercentage percentage: CGFloat = 100){
+    public func matchSize(toView view:UIView? = nil, withPercentage percentage: CGFloat = 100){
         matchHeight(toView: view, withPercentage: percentage)
         matchWidth(toView: view, withPercentage: percentage)
     }

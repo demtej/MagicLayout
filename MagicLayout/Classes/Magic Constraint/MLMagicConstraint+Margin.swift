@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension MLMagicConstraint {
+internal extension MLMagicConstraint {
     var margin : CGFloat {
         get {
             switch relatedAttribute {

@@ -35,11 +35,11 @@ extension UIView {
         }
     }
     
-    func removeAllMagicConstraints() {
+    open func removeAllMagicConstraints() {
         self.magicConstraints = nil
     }
     
-    func applyMagicConstrains() {
+    open func applyMagicConstrains() {
         for subView in subviews {
             subView.applyMagicConstrains()
         }
