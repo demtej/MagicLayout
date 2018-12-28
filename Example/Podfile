@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MagicLayout_Example' do
+  pod 'MagicLayout', :path => '../'
+
+  target 'MagicLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

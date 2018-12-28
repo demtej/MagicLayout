@@ -1,0 +1,16 @@
+PODS:
+  - MagicLayout (0.1.0)
+
+DEPENDENCIES:
+  - MagicLayout (from `../`)
+
+EXTERNAL SOURCES:
+  MagicLayout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MagicLayout: dba08af0796cef1050b337e4ca5626e052caaf21
+
+PODFILE CHECKSUM: e244191b718a5a8c510c4cda32221740bdd8317d
+
+COCOAPODS: 1.4.0

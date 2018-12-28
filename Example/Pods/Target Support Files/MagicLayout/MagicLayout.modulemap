@@ -1,0 +1,6 @@
+framework module MagicLayout {
+  umbrella header "MagicLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

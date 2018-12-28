@@ -1,0 +1,22 @@
+{
+  "name": "MagicLayout",
+  "version": "0.1.0",
+  "summary": "A short description of MagicLayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Demian Tejo/MagicLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Demian Tejo": "demian.tejo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Demian Tejo/MagicLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MagicLayout/Classes/**/**/**"
+}
