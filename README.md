@@ -131,7 +131,7 @@ This project include an example project using Magic Layout.
 
 ###  📚 Documentation & DevSite
 
-
+[Magic Layout Documentation] (https://demtej.github.io/MagicLayoutDocumentation/)
 
 
 ## ❤ Feedback
@@ -148,5 +148,3 @@ This is an open source project, so feel free to contribute. How?
 ##  👨🏻‍💻 Author
 
 [Demian Tejo](https://demtej.github.io/resume/)
-
- 
