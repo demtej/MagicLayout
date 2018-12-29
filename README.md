@@ -131,7 +131,7 @@ This project include an example project using Magic Layout.
 
 ###  📚 Documentation & DevSite
 
-[Magic Layout Documentation] (https://demtej.github.io/MagicLayoutDocumentation/)
+[Magic Layout Documentation](https://demtej.github.io/MagicLayoutDocumentation/)
 
 
 ## ❤ Feedback
