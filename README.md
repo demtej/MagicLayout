@@ -7,7 +7,7 @@ Edit your `Podfile` and specify the dependency:
 
 
 ```ruby
-pod 'MagicLayout', '~> 1.0'
+pod 'MagicLayout', '~> 0.1.0'
 ```
 
 
@@ -41,7 +41,7 @@ import MagicLayout
 class ViewController: MagicViewController
 ```
 
-
+This is optional, you could call ```swift view.applyMagicConstrains() ``` in your view controller instead
 
 ### 3 - Set constaints to your views
 
