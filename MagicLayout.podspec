@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'Auto layout view based API'
+  s.description      = 'Auto layout view based API.'
 
   s.homepage         = 'https://github.com/demtej/MagicLayout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Demian Tejo' => 'demian.tejo@gmail.com' }
-  s.source           = { :git => 'https://github.com/demtej/MagicLayout', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/demtej/MagicLayout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
