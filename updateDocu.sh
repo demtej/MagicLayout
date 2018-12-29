@@ -6,4 +6,4 @@ jazzy --podspec MagicLayout.podspec \
   --github-file-prefix https://github.com/demtej/MagicLayout/tree/master \
   --module-version 4.0.0 \
   --root-url https://github.com/demtej/MagicLayout \
-  --output documentation/MagicLayout \
+  --output docs \
