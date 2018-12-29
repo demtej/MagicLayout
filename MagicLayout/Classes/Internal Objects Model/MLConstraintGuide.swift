@@ -6,7 +6,7 @@
 //
 
 import Foundation
-/** :nodoc: */
+///:nodoc:
 internal class MLConstraintGuide {
     var constraints: [MLMagicConstraint] = [MLMagicConstraint]()
     subscript(index: Int) -> MLMagicConstraint {

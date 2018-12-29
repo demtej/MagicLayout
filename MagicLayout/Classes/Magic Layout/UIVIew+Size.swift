@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//:nodoc:
 public extension UIView {
     /**
      Create a magic constraint in order to fix size

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-/** :nodoc: */
+///:nodoc:
 internal class MLPadding {
     var left: CGFloat = 0
     var right: CGFloat = 0

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MagicLayout'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MagicLayout.'
+  s.version          = '1.0.0'
+  s.summary          = 'Auto layout view based API'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Auto layout view based API'
 
-  s.homepage         = 'https://github.com/Demian Tejo/MagicLayout'
+  s.homepage         = 'https://github.com/demtej/MagicLayout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Demian Tejo' => 'demian.tejo@gmail.com' }
-  s.source           = { :git => 'https://github.com/Demian Tejo/MagicLayout.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/demtej/MagicLayout', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

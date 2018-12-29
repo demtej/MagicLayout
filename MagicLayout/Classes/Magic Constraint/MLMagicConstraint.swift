@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-/** :nodoc: */
+///:nodoc:
 internal class MLMagicConstraint {
     
     internal let ownerItem: UIView
