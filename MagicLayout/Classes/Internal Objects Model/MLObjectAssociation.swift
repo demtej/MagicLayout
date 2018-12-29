@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+/** :nodoc: */
 internal final class MLObjectAssociation<T: AnyObject> {
     
     private let policy: objc_AssociationPolicy

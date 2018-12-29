@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-
+/** :nodoc: */
 internal extension MLMagicConstraint {
     var margin : CGFloat {
         get {

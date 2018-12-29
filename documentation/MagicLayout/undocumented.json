@@ -1,0 +1,33 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/demitej/Projects/MagicLayout/MagicLayout/Classes/Magic Layout/UIView+Paddings.swift",
+      "line": 24,
+      "symbol": "UIView.leftPadding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/demitej/Projects/MagicLayout/MagicLayout/Classes/Magic Layout/UIView+Paddings.swift",
+      "line": 30,
+      "symbol": "UIView.rightPadding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/demitej/Projects/MagicLayout/MagicLayout/Classes/Magic Layout/UIView+Paddings.swift",
+      "line": 36,
+      "symbol": "UIView.topPadding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/demitej/Projects/MagicLayout/MagicLayout/Classes/Magic Layout/UIView+Paddings.swift",
+      "line": 42,
+      "symbol": "UIView.bottomPadding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/demitej/Projects/MagicLayout"
+}

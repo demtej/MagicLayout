@@ -8,9 +8,9 @@
 import UIKit
 
 extension UIView {
-    
+    /** :nodoc: */
     private static let associationConstraints = MLObjectAssociation<MLConstraintGuide>()
-    
+    /** :nodoc: */
     private var magicConstraints: [MLMagicConstraint]? {
         get { return UIView.associationConstraints[self]?.constraints }
         set {
@@ -23,7 +23,7 @@ extension UIView {
             }
         }
     }
-    
+    /** :nodoc: */
     internal func addMagicConstraint(_ constraint: MLMagicConstraint){
         if var constraints = self.magicConstraints {
             constraints.append(constraint)
@@ -35,10 +35,16 @@ extension UIView {
         }
     }
     
+    /**
+     Remove all magic contraints from owner view
+     */
     open func removeAllMagicConstraints() {
         self.magicConstraints = nil
     }
     
+    /**
+     Create all related NSLayoutConstraint for the view and all subviews in cascade mode
+     */
     open func applyMagicConstrains() {
         for subView in subviews {
             subView.applyMagicConstrains()

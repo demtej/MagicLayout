@@ -44,30 +44,51 @@ extension UIView {
             return magicPaddings?.bottom ?? 0
         }
     }
-    
+    /**
+     Create a magic constraint in order to add left padding to the view
+     - parameter padding: value of padding
+     */
     open func setLeftPadding(padding: CGFloat){
         magicPaddings?.left = padding
     }
-    
+    /**
+     Create a magic constraint in order to add right padding to the view
+     - parameter padding: value of padding
+     */
     open func setRightPadding(padding: CGFloat){
         magicPaddings?.right = padding
     }
-    
+    /**
+     Create a magic constraint in order to add top padding to the view
+     - parameter padding: value of padding
+     */
     open func setTopPadding(padding: CGFloat){
         magicPaddings?.top = padding
     }
-    
+    /**
+     Create a magic constraint in order to add bottom padding to the view
+     - parameter padding: value of padding
+     */
     open func setBottomPadding(padding: CGFloat){
         magicPaddings?.bottom = padding
     }
-    
+    /**
+     Create a magic constraint in order to add paddings to the view
+     - parameter left: value of left padding
+     - parameter right: value of right padding
+     - parameter top: value of top padding
+     - parameter bottom: value of bottom padding
+     */
     open func setPaddings(left:CGFloat,right: CGFloat, top:CGFloat, bottom:CGFloat){
         setLeftPadding(padding: left)
         setRightPadding(padding: right)
         setTopPadding(padding: top)
         setBottomPadding(padding: bottom)
     }
-    
+    /**
+     Create a magic constraint in order to add paddings to the view
+     - parameter padding: value of left,right,top & bottom padding
+     */
     open func setPadding(padding: CGFloat) {
         setPaddings(left: padding, right: padding, top: padding, bottom: padding)
     }

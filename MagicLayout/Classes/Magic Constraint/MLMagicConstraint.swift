@@ -7,8 +7,8 @@
 
 import Foundation
 import UIKit
-
-open class MLMagicConstraint {
+/** :nodoc: */
+internal class MLMagicConstraint {
     
     internal let ownerItem: UIView
     internal let ownerAttribute: NSLayoutConstraint.Attribute
@@ -19,7 +19,7 @@ open class MLMagicConstraint {
     internal let multiplier: CGFloat
     internal var constant: CGFloat
     
-    open var relatedConstraint : NSLayoutConstraint? {
+    var relatedConstraint : NSLayoutConstraint? {
         get {
             if relatedToSuperview  && relatedItem == nil {
                 guard let superView = ownerItem.superview else {
@@ -32,7 +32,7 @@ open class MLMagicConstraint {
         }
     }
     
-    public init(item ownerItem: UIView, attribute ownerAttribute: NSLayoutConstraint.Attribute, relatedBy related: NSLayoutConstraint.Relation, toItem relatedItem: UIView?, attribute relatedAttribute: NSLayoutConstraint.Attribute, multiplier: CGFloat, constant: CGFloat) {
+    init(item ownerItem: UIView, attribute ownerAttribute: NSLayoutConstraint.Attribute, relatedBy related: NSLayoutConstraint.Relation, toItem relatedItem: UIView?, attribute relatedAttribute: NSLayoutConstraint.Attribute, multiplier: CGFloat, constant: CGFloat) {
         self.ownerItem = ownerItem
         self.ownerAttribute = ownerAttribute
         self.related = related
@@ -44,7 +44,7 @@ open class MLMagicConstraint {
         relatedConstraint?.isActive = true
     }
 
-    public init(item ownerItem: UIView, attribute ownerAttribute: NSLayoutConstraint.Attribute, relatedBy related: NSLayoutConstraint.Relation, attribute relatedAttribute: NSLayoutConstraint.Attribute, multiplier: CGFloat, constant: CGFloat) {
+    init(item ownerItem: UIView, attribute ownerAttribute: NSLayoutConstraint.Attribute, relatedBy related: NSLayoutConstraint.Relation, attribute relatedAttribute: NSLayoutConstraint.Attribute, multiplier: CGFloat, constant: CGFloat) {
         self.ownerItem = ownerItem
         self.ownerAttribute = ownerAttribute
         self.related = related

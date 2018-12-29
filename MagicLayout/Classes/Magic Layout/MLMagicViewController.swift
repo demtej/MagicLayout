@@ -7,9 +7,11 @@
 //
 
 import UIKit
-
+/**
+ MLMagicViewController is a UIViewController that override viewDidAppear in order to apply magic contrains to its view
+ */
 open class MLMagicViewController : UIViewController {
-    
+    ///:nodoc:
     override open func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         view.applyMagicConstrains()
