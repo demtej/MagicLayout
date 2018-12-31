@@ -7,7 +7,7 @@ Edit your `Podfile` and specify the dependency:
 
 
 ```ruby
-pod 'MagicLayout', '~> 0.1.0'
+pod 'MagicLayout', '~> 1.0'
 ```
 
 
@@ -16,8 +16,8 @@ pod 'MagicLayout', '~> 0.1.0'
 - [x] Easy to install
 - [x] Easy to use
 - [x] Intuitive usage
-- [x] Constraints by code in few minute
-- [x]  Less code!  🙌
+- [x] Constraints by code in a few minutes
+- [x] Less code!  🙌
 
 
 
@@ -35,15 +35,15 @@ import MagicLayout
 
 
 
-### 2 - Extends your ViewController from MagicViewController
+### 2 - Extend your ViewController from MagicViewController
 
 ```swift
 class ViewController: MagicViewController
 ```
 
-This is optional, you could call ```swift view.applyMagicConstrains() ``` in your view controller instead
 
-### 3 - Set constaints to your views
+
+### 3 - Set constraints to your views
 
 ```swift
 override func viewDidLoad() {
@@ -63,10 +63,10 @@ override func viewDidLoad() {
 
 ![Screenshot iOS](https://i.imgur.com/4SwxgK9.png))
 
-In few lines you could add a centered custom view in a superview with padding! 😱
+In a few lines you could add a centered custom view in a superview with padding! 😱
 
 
-##  💪  Let's the example code talks...
+##  💪  Let's the example code talk...
 
 
 ```swift
@@ -125,13 +125,13 @@ In few lines you could add a centered custom view in a superview with padding! �
 
 ###  🔮 Project Example
 
-This project include an example project using Magic Layout.
+This repo includes an example project using Magic Layout.
 
 
 
 ###  📚 Documentation & DevSite
 
-[Magic Layout Documentation](https://demtej.github.io/MagicLayout/)
+
 
 
 ## ❤ Feedback
